@@ -1,0 +1,90 @@
+@media screen and (min-width:426px) and (max-width:1100px){
+
+}
+@media screen and (max-width:425px){
+    *{
+        justify-self: center;
+    }
+    .logo{
+        height: 10rem;
+        position: relative;
+        margin-top: 2cm;
+        margin-left: 1cm;
+    }
+    .nav-incont{
+        font-size: 15px;
+        display: none;
+        justify-content: space-between;
+        /* width: 100cm; */
+    }
+    .center{
+        
+        display: none;
+    }
+    article{
+        display: grid;
+        justify-content: space-around;
+        margin-bottom: 1cm;
+        text-align: center;
+    }
+    article .who-text{
+        width: 8cm;
+    }
+    .who-img{
+        width: 19rem;
+        position: relative;
+        top: 50px;
+        /* left: 5px; */
+    }
+    .who-img img{
+        height: 1rem;
+    }
+    .big-h1{
+        color: rgb(218, 143, 5);
+        width: 8cm;
+        text-align: center;
+        font-size: 25px;
+    }
+    .Past-question{
+        width: 10rem;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    .square2{
+        height: 6cm;
+        width: 6cm;
+        margin-bottom:3cm;
+        rotate: 0deg;
+        position: relative;
+        left: 60px;
+    }
+    .square-img{
+        rotate: 30deg;
+        height: 7cm;
+        width: 7cm;
+        position: relative;
+       /* left: 0.5rem; */
+    }
+    .wwo{
+        display: grid;
+        /* width: 1rem; */
+    }
+    .footer-main{
+        display: grid;
+        text-align: center;
+    }
+    .footer-main-sub{
+        display:flex;
+        justify-content: space-between;
+        width: 15rem;
+        margin-bottom: 0.5cm;
+    }
+    .contact-fill input{
+        padding: 8px;
+        width: 10rem;
+    }
+    .main-head{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}

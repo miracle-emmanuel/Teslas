@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-image:url(/imgs/div1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 30rem;
+    position: relative;
+    bottom:3cm;
+    right:1cm;
+}
+.nav-incont{
+    display: flex;
+    justify-content:space-between;
+    height: fit-content;
+    font-size: 25px;
+    margin-top: 2cm;
+    width: 15rem;
+    margin-right: 5cm;
+}
+nav div a {
+    text-decoration: none;
+    color: black;
+}
+.center{
+    font-size: 40px;
+    position: relative;
+    text-transform: uppercase;
+    bottom: 5cm;
+}
+article{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1cm;
+}
+article .who-text{
+    width: 14cm;
+    display: grid;
+    justify-content: space-between;
+}
+.who-img{
+    display:flex;
+    flex-wrap: wrap;
+    width: 25rem;
+    gap: 10px;
+    /* backg    round-color: aqua; */
+}
+article .who-img img{
+    height:9rem;
+}
+article h1{
+    font-size: 40px;
+}
+article p{
+    font-size: 20px;
+}
+article .who-img h1{
+    background-color: white;
+    width: 3.5cm;
+    font-size: 45px;
+    color: rgb(218, 143, 5);
+    position: relative;
+    bottom: 0.5cm;
+}
+.square2{
+    height: 10cm;
+    width: 10cm;
+    border: 5px solid black;
+    border-radius: 15px;
+    rotate: -30deg;
+    margin-right:3cm;
+}
+.square-img{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    rotate: 30deg;
+    height: 11cm;
+    width: 11cm;
+    position: relative;
+    right: 20px;
+    bottom: 1pc;
+}
+.big-h1{
+    color: rgb(218, 143, 5);
+    width: 18cm;
+    text-align: center;
+    font-size: 50px;
+}
+.wwo{
+    display: flex;
+}
+.main-head {
+    font-size: 20px;
+    text-transform: uppercase;
+   margin-bottom: 2cm;
+   margin-top: 2cm;
+}
+.Past-question{
+    background-color: brown;
+    width: 15rem;
+    padding: 20px;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    margin-top: 5rem;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.contact-fill{
+    display: grid;
+    gap: 20px;
+}
+.contact-fill input{
+    padding: 10px;
+    width: 30rem;
+}
+.submit{
+    margin-top:0;
+    border:0;
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(40,54,70,1);
+    padding-bottom: 1cm;
+}
+.footer-logo{
+    height: 10rem;
+    position: relative;
+    bottom:1cm;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:30px;
+    position: relative;
+    bottom: 60px;
+}
+.footer-main-sub{
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+}
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}

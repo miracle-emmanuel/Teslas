@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.firstchild-container{
+    background-image: url(/imgs/login2.jpg);
+    /* background: url(login2.jpg); */
+    background-size: cover;
+    width:8in;
+    height: 100vh;
+    /* align-items: center; */
+    filter:brightness(70%);
+}
+.shape{
+    position: relative;
+    max-width: 230px;
+    padding: 50px;
+    background: rgb(248, 248, 248, .9);
+    top: 3in;
+    left: 2in;
+    border-radius: 30px;
+}
+.logo{
+    width: 2in;
+    position: relative;
+    bottom: 50px;
+    left: 10cm;
+    /* background-color: black; */
+}
+.secondchild-container{
+/* background-color:    aqua; */
+width: 7in;
+
+}
+.inner-secondchild-container{
+    display: grid;
+    justify-content: space-around;
+    /* background-color: rgb(70, 70, 83); */
+    height: 5in;
+    position: relative;
+    bottom: 3cm; 
+    align-self: center;
+}
+.choice-login{
+    display: grid;
+    justify-content: space-between;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+    width: 10cm;
+}
+.password a{
+    color: #a80f27;
+    text-decoration: none;
+}
+.secondchild-container .inner-secondchild-container .signin{
+    padding: 10px;
+    width: 10cm;
+    margin-bottom:0.5cm;
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 3px gray;
+}
+.secondchild-container .inner-secondchild-container input{
+    padding: 10px;  
+    width: 10cm;
+    margin-bottom: 0.5cm;
+}
+.signed-in-big-container{
+    display: grid;
+    width: 10cm;
+}
+.signed-in{
+    display: flex;
+    width: 15cm;
+    height: 30px;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    position: relative;
+    right: 4.8cm;
+}
+.submit{
+    width: 10.6cm;
+    padding: 5px;
+    background-color: #a80f27;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}

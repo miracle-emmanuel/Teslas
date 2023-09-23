@@ -1,0 +1,65 @@
+@media screen and (min-width:426px) and (max-width:1100px){
+
+}
+@media screen and (max-width:425px){
+    *{
+        justify-self: center;
+    }
+    .logo{
+        display: none;
+    }
+    .firstchild-container{
+        background-image: url(/imgs/login2.jpg);
+        background-size: cover;
+        width:8in;
+        height: 100vh;
+        filter:brightness(70%);
+        display: none;
+    }
+    .secondchild-container{
+    background-image: url(/imgs/login2.jpg);
+    height: 100vh;
+    display: grid;
+    width: 10in;
+    }
+    .inner-secondchild-container{
+        display: grid;
+        justify-content: space-around;
+       background: rgb(248, 248, 248, .9);
+        height:90vh;
+        width: 3in;
+        position: relative;
+        top: 3px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-radius: 10px;
+    }
+    .secondchild-container .inner-secondchild-container .signin{
+        width: 5cm;
+    }
+    .secondchild-container .inner-secondchild-container input{  
+        width: 5cm;
+    }
+    .choice-login{
+    position: relative;
+    /* bottom: 2cm; */
+}
+    .signed-in-big-container{
+        display: grid;
+        width: 7cm;
+        justify-content: space-around;
+    }
+    .password{
+        width: 5cm;
+    }
+    .signed-in{
+    display: flex;
+    width: 9cm;
+    position: relative;
+    right:1cm;
+    /* background-color: aqua; */
+}
+    .submit{
+        width: 5.6cm;
+    }
+}

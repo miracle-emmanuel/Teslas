@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.logo{
+    height: 20rem;
+    position: relative;
+    bottom:3cm;
+    right:1cm;
+}
+body{
+    background-image: url(/imgs/option1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.mother-container{
+    display: grid;
+    justify-content: space-around;
+    /* background-color: bisque; */
+    height: 9cm;
+    position: relative;
+    bottom:4cm;
+}
+.universityopt{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    width: 25cm;
+}
+body div a{
+    background-color: aqua;
+    padding: 60px;
+    align-self: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: large;
+}
+.private{
+    background-color: rgb(255, 153, 0);
+}
+.public{
+    background-color: brown;
+}
+.state{
+    background-color: rgb(212, 140, 31);
+}
